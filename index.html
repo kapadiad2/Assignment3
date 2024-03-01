@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  
+    <script>
+
+        //task 1
+
+        var countries = ['India', 'Canada', 'USA', 'UK', 'Russia', 'Italy'];
+
+        countries.forEach((element) => console.log(element));
+
+        //task 2
+        var maxAge = 98;
+
+
+
+        function calculateNumberToothbrushForLife(age, amountPerMonth) {
+            if (age < maxAge) {
+                totalbrushNeeded = (maxAge-age) * 12 * amountPerMonth
+
+                console.log('You will need ' + totalbrushNeeded + ' toothbrushes to last you until the age of ' + age);
+            }
+            else {
+                console.log("Please enter age less than 98")
+            }
+
+        }
+        calculateNumberToothbrushForLife(100, 4);
+        calculateNumberToothbrushForLife(50, 2);
+        calculateNumberToothbrushForLife(75, 2);
+
+
+        
+
+    </script>
+</body>
+
+</html>
